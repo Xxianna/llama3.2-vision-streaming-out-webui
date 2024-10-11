@@ -8,3 +8,11 @@
 模型文件请下载到本地，国内较快的地址 https://www.modelscope.cn/models/LLM-Research/Llama-3.2-11B-Vision-Instruct
 
 模型放在工作目录下的llama32vision11b文件夹下即可。环境为运行huggingface模型的常见环境
+
+
+- This document uses float16 for loading, as the 2080ti does not support bf16. If you are using a 30 series or later graphics card, you can switch to the original bf16.
+- Also, the CUDA device environment variables can be modified as needed.
+- Please download the model file to your local drive. A faster address in China is available at https://www.modelscope.cn/models/LLM-Research/Llama-3.2-11B-Vision-Instruct
+- Place the model in the 'llama32vision11b' folder in the working directory.
+- The python environment is the common environment for running Huggingface models.
+- Feel free to share your thoughts on the model's parameters; I find this model somewhat lacking in intelligence.
