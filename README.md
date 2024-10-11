@@ -6,3 +6,5 @@
 以及cuda设备的环境变量也可按需修改
 
 模型文件请下载到本地，国内较快的地址 https://www.modelscope.cn/models/LLM-Research/Llama-3.2-11B-Vision-Instruct
+
+模型放在工作目录下的llama32vision11b文件夹下即可。环境为运行huggingface模型的常见环境
